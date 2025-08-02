@@ -53,7 +53,7 @@ def crawl_and_save_csv(batch_id):
     df_filtered = df_filtered.reset_index(drop=True)
 
     if not df_filtered.empty:
-        df_filtered.to_csv(output_file, index=False)
+        df_filtered.to_csv(os.path.join(output_file, f"{batch_id}.csv"), index=False)
         print(f"Successfully combined files and saved to {output_file}")
         return output_file
     else:
