@@ -1,0 +1,17 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+cchy-venv/
+venv/
+*.sqlite3
+
+# vscode / pycharm
+.idea/
+.vscode/
+
+# output
+csv_output/
+logs/

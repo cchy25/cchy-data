@@ -1,0 +1,20 @@
+# airflow
+apache-airflow==2.8.1
+pendulum>=2.1
+
+
+
+python-dotenv==1.0.1
+
+pandas==2.2.2
+lxml
+SQLAlchemy==2.0.30 #>=1.4.28,<2.0  # for airflow
+pymysql==1.1.0
+
+selenium==4.15.2
+PyPDF2
+olefile
+beautifulsoup4
+requests
+tqdm
+openai
